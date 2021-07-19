@@ -24,4 +24,4 @@ jobs:
       - name: 🧪 Tests
         run: dotnet test --no-build -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
       - name: ☢ Publish to Codecov
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v2
